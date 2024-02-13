@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
+'''Task 3 module'''
 from flask import request
+from typing import TypeVar
 
 class Auth:
     ''' Authorization '''
