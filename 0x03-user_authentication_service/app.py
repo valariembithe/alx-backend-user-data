@@ -2,7 +2,10 @@
 '''Task 6 module '''
 from flask import Flask, jsonify, request, abort, redirect
 
+from auth import Auth
 
+
+AUTH = Auth()
 app = Flask(__name__)
 
 
