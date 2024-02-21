@@ -15,4 +15,3 @@ class User(Base):
     hashed_password = Column(VARCHAR(250), nullable=False)
     session_id = Column(VARCHAR(250), nullable=True)
     restore_token = Column(VARCHAR(250), nullable=True)
-

@@ -76,4 +76,3 @@ class DB:
             synchronize_session=False,
         )
         self._session.commit()
-
